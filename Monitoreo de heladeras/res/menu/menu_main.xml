@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="HardcodedText"
+    android:background="@drawable/fondosd">
+    <item
+        android:orderInCategory="100"
+        android:id="@+id/logout"
+        android:title="Cerrar sesión"
+        android:icon="@drawable/ic_action_logout_ok"
+        app:showAsAction="always|withText">
+    </item>
+</menu>
